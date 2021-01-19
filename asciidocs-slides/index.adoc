@@ -6,6 +6,17 @@ ifndef::imagesdir[:imagesdir: images]
 ifndef::backend[:backend: html5]
 :icons: font
 
+[%notitle]
+== Welcome
+
+image::welcome.jpeg[background, size=cover]
+
+== Team
+
+image::simon-ittensammer.jpeg[height=400px, float=left]
+image::lorenz-gruber.png[height=400px, float=left]
+image::simon-zweimueller.jpeg[height=400px, float=left]
+
 == Video
 
 ++++
@@ -14,15 +25,18 @@ ifndef::backend[:backend: html5]
 
 == Problem
 
+image::cameras.png[background, size=cover]
+
 * Videoüberwachung für das eigene Zuhause ist oft teuer oder kompliziert
-* An der HTL Leonding gibt es ein Robolab, dass den Schülern immer zur Verfügung stehen soll
+* Cameleon erlaubt jegliche Art von Kameras!
 
-== Ziel
+== Beispiel RoboLab
 
-* Sicherheit im eigenen Haushalt gewährleisten durch Vereinfachung von Videoüberwachung
-* Im Fall des Robolabs wird eine Kamera installiert und die Bewegungserkennung außerhalb der Schulzeiten aktiviert
+image::robolab.jpg[background, size=cover]
 
 == Funktionen
+
+image::https://images.pexels.com/photos/4974913/pexels-photo-4974913.jpeg[background, size=cover]
 
 - Livestream ansehen
 - Bilder und Texte über Streams legen
@@ -31,25 +45,23 @@ ifndef::backend[:backend: html5]
 
 === Livestream ansehen
 
-* Anzeigen des Live-Bilds der ausgewählten Kamera
-* Ziel: Beobachtung des Raumes, ohne anwesend sein zu müssen
+image::livestream.png[background, size=cover]
 
 === Bilder und Texte über Streams legen
 
-* Hinzufügen von Text-, Bild- oder Zeit-Objekten welche im gewünschten Stream angezeigt werden
-* Ziel: Personalisierung des Streams und Anzeigen von Informationen
+image::overlays.png[background, size=cover]
 
 === Benachrichtigung aufs Handy erhalten
 
-* Man erhält eine Nachricht auf Telegram mit einem aktuellen Bild des Streams
-* Ziel: Der Benutzer soll benachrichtigt werden, ohne die Website aufrufen zu müssen
+image::https://image.stern.de/9251522/t/_r/v3/w1440/r1.7778/-/telegram-messenger.jpg[background, size=cover]
 
 === Aufzeichnungen ansehen
 
-* Anzeigen von Bildern und kurzen Clips
-* Ziel: Man soll vergangene Ereignisse nochmal ansehen können
+image::https://images.pexels.com/photos/3799125/pexels-photo-3799125.jpeg[background, size=cover]
 
 == Technischer Aufbau
+
+image::technologies.png[background, size=cover]
 
 === Kamera
 
