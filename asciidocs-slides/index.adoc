@@ -95,3 +95,22 @@ image::technologies.png[background, size=cover]
 * Zugriff auf Kameras ohne Website
 
 == Vielen Dank für ihre Aufmerksamkeit!
+
+== Fragen
+
+=== Wie ist das System aufgebaut
+
+image::https://github.com/simonittensammer/cameleon/blob/master/asciidocs/images/component_diagram.png[]
+
+=== Welche Möglichkeiten soll der User haben?
+
+image::https://github.com/simonittensammer/cameleon/blob/master/asciidocs/images/usecase_diagram.png[]
+
+=== Wie werden Overlays eingebunden?
+
+* In der Liveview als HTML Elemente
+* Bei gespeicherten Bildern/Videos direkt in den Frame hineingeschreiben
+
+=== Wie übertragen Kameras die Streams?
+
+* Als HTTP-Stream 
