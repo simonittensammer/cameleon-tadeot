@@ -11,32 +11,52 @@ ifndef::backend[:backend: html5]
 
 image::welcome.jpeg[background, size=cover]
 
+[.columns]
 == Team
 
-image::simon-ittensammer.jpeg[height=400px, float=left]
-image::lorenz-gruber.png[height=400px, float=left]
-image::simon-zweimueller.jpeg[height=400px, float=left]
+[.column]
+--
+image::lorenz-gruber.png[height=350px]
+Lorenz +
+Gruber
+--
 
-== Video
+[.column]
+--
+image::simon-ittensammer.jpeg[height=350px]
+Simon +
+Ittensammer
+--
 
-++++
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zKXKHOJbwfw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-++++
+[.column]
+--
+image::simon-zweimueller.jpeg[height=350px]
+Simon +
+Zweimüller
+--
 
 == Problem
 
 image::cameras.png[background, size=cover]
 
 * Videoüberwachung für das eigene Zuhause ist oft teuer oder kompliziert
-* Cameleon erlaubt jegliche Art von Kameras!
+* Kameras/Systeme verschiedener Hersteller sind oft nicht miteinander kompatibel
 
-== Beispiel RoboLab
+== Beispiel Zuhause
 
-image::robolab.jpg[background, size=cover]
+image::https://images.pexels.com/photos/3820174/pexels-photo-3820174.jpeg?w=1920[background, size=cover]
+
+== Lösung
+
+image::https://images.pexels.com/photos/4792503/pexels-photo-4792503.jpeg?w=1920[background, size=cover]
+
+CAMeleon ist ein benutzerfreundliches Überwachungssystem für IP-Kameras. +
+
+Alle Kameras können auf einer übersichtlichen Benutzeroberfläche angezeigt und verwaltet werden. +
 
 == Funktionen
 
-image::https://images.pexels.com/photos/4974913/pexels-photo-4974913.jpeg[background, size=cover]
+image::https://images.pexels.com/photos/4974913/pexels-photo-4974913.jpeg?w=1920[background, size=cover]
 
 - Livestream ansehen
 - Bilder und Texte über Streams legen
@@ -51,13 +71,13 @@ image::livestream.png[background, size=cover]
 
 image::overlays.png[background, size=cover]
 
+=== Aufzeichnungen ansehen
+
+image::https://images.pexels.com/photos/3799125/pexels-photo-3799125.jpeg?w=1920[background, size=cover]
+
 === Benachrichtigung aufs Handy erhalten
 
 image::https://image.stern.de/9251522/t/_r/v3/w1440/r1.7778/-/telegram-messenger.jpg[background, size=cover]
-
-=== Aufzeichnungen ansehen
-
-image::https://images.pexels.com/photos/3799125/pexels-photo-3799125.jpeg[background, size=cover]
 
 == Technischer Aufbau
 
@@ -65,9 +85,13 @@ image::technologies.png[background, size=cover]
 
 === Kamera
 
+image::https://images.pexels.com/photos/274895/pexels-photo-274895.jpeg?w=1920[background, size=cover]
+
 * Technologie: Jegliche Art von Kamera (Smartphone, Webcam, Überwachungskamera)
 
 === Frontend
+
+image::https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?w=1920[background, size=cover]
 
 * Technologie: Angular
 * Zeigt die Livestreams der Kameras an
@@ -75,20 +99,29 @@ image::technologies.png[background, size=cover]
 
 === Backend
 
+image::https://images.pexels.com/photos/2332885/pexels-photo-2332885.jpeg?w=1920[background, size=cover]
+
 * Technologie: Quarkus
 * Bewegungserkennung
 * Mobile Benachrichtigungen
 
 === Datenbank
 
+image::https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?w=1920[background, size=cover]
+
 * Technologie: PostgreSQL
 * Speichern sämtliche Daten (Kamerainformationen, Aufnahmen, Overlayobjekte)
 
-=== Browser
+=== Bildverarbeitung
 
-* Technologie: Grundsätzlich jeder Browser
+image::https://images.pexels.com/photos/950902/pexels-photo-950902.jpeg?w=1920[background, size=cover]
+
+* Technologie: OpenCV
+* Wird für die Bewegungserkennung verwendet
 
 === Telegram
+
+image::https://images.pexels.com/photos/4359466/pexels-photo-4359466.jpeg?w=1920[background, size=cover]
 
 * Technologie: TelegramBots von Ruben Bermudez
 * Benachrichtigungen bei Bewegungserkennung
@@ -96,15 +129,19 @@ image::technologies.png[background, size=cover]
 
 == Vielen Dank für ihre Aufmerksamkeit!
 
+image::https://images.pexels.com/photos/193821/pexels-photo-193821.jpeg?w=1920[background, size=cover]
+
 == Fragen
+
+image::https://images.pexels.com/photos/3861561/pexels-photo-3861561.jpeg?w=1920[background, size=cover]
 
 === Wie ist das System aufgebaut
 
-image::https://github.com/simonittensammer/cameleon/blob/master/asciidocs/images/component_diagram.png[]
+image:https://raw.githubusercontent.com/simonittensammer/cameleon/master/asciidocs/images/component_diagram.png[height=400px]
 
 === Welche Möglichkeiten soll der User haben?
 
-image::https://github.com/simonittensammer/cameleon/blob/master/asciidocs/images/usecase_diagram.png[]
+image:https://raw.githubusercontent.com/simonittensammer/cameleon/master/asciidocs/images/usecase_diagram.png[height=400px]
 
 === Wie werden Overlays eingebunden?
 
